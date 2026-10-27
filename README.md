@@ -1,54 +1,40 @@
-# 🚀 Full-Stack & Backend Engineering Workspace
+# 🚀 Enterprise Backend & Distributed Systems Workspace
 
-Welcome to my core engineering repository. This workspace tracks my progression from JavaScript foundational mechanics and low-level Node.js architectural subsystems up to type-safe application compilation and enterprise-grade web frame design.
+A centralized engineering laboratory focused on building high-performance, type-safe backend architectures and system infrastructures. This workspace moves beyond framework abstractions to demonstrate low-level Node.js subsystem optimization, complex relational data modeling, data streaming, and scalable enterprise design patterns.
 
 ---
 
-## 🗺️ Engineering Roadmap Tracker
+## 🏗️ Architectural Roadmap & Implementation Status
 
-| Phase / Technology | Core Focus Area | Status |
+| System Domain | Core Focus & Engineering Objective | Status |
 | :--- | :--- | :--- |
-| **01. JavaScript (Core Engine)** | Async Engines, Microtasks, OOP & Prototype Chains | **🟢 Complete** |
-| **02. TypeScript (Compilation)** | Type Narrowing, Generics, Custom Component Typing | **🟢 Complete** |
-| **03. Node.js (Core Subsystems)**| Event Loop, Event Emitters, Stream IO Pipelines | **🟢 Complete** |
-| **04. Express.js (API Layer)** | MVC Structural Routing, Pipeline Middlewares | **🟢 Complete** |
-| **05. Relational Data Layer** | PostgreSQL Storage, Complex Joins, Prisma ORM | **🟢 Complete** |
-| **06. Identity & Security** | Cryptographic Hashing, Stateful/Stateless JWT Auth | **🟢 Complete** |
-| **07. Production Graduation** | Unified Portfolio REST Application Execution | **🔴 Up Next** |
-| **08. Enterprise Frameworks**| NestJS, Modular Dependency Injection Patterns | **🔴 Up Next** |
-| **09. Systems Infrastructure** | Docker Multi-Stage Containerization & AWS Deploy | **🔴 Up Next** |
+| **01. Runtimes & Compilation** | V8 Event Loop optimization, asynchronous memory management, strict type compilation systems. | **🟢 Active Engine** |
+| **02. Reactive & Streaming Subsystems** | Multi-threaded stream pipelines, native non-blocking IO, custom event-driven Pub/Sub networks. | **🟢 Active Engine** |
+| **03. Relational Infrastructure** | PostgreSQL normalization, indexing, connection pooling, and Prisma type-safe database layers. | **⚡ In Progress** |
+| **04. Distributed Identity & Security**| Cryptographic verification, token rotation strategies, and stateless/stateful session guards. | **⏳ Backlog** |
+| **05. Enterprise Application Design** | Monolithic-to-modular refactoring, NestJS dependency injection, and clean architecture boundaries. | **⏳ Backlog** |
+| **06. Cloud & Systems Infrastructure**| Multi-stage Docker containerization, CI/CD automated orchestration, and AWS deployments. | **⏳ Backlog** |
 
 ---
 
-## 📁 Repository Architecture & Completed Milestones
+## 📁 Core Subsystems & Technical Milestones
 
-### 🗂️ 01-JAVA-SCRIPT
-Deep dive into execution context behaviors, memory management, and asynchronous orchestration.
-* **Basics & Scopes:** Primitive stack vs heap allocations, lexical environments, closures, and IIFE closures.
-* **Asynchronous Engine:** Processing order behind Macrotasks vs Microtasks via Promises and the Call Stack.
-* **Object-Oriented Architecture:** Prototype delegation chains, implicit `this` bindings, `call`/`bind` manipulation, and modern ES6 class inheritance properties.
+### ⚙️ Asynchronous Runtimes & Type-Safety Engine
+Deep dive into execution context behaviors, strict memory boundaries, and static type safety.
+* **Memory & Event Loops:** Analyzing V8 stack/heap allocation profiles and deterministic processing mechanics behind macrotask vs. microtask queues to write non-blocking code.
+* **Advanced Polymorphism & Generics:** Designing reusable data engines via TypeScript type narrowing, conditional types, and complex generic interfaces (`<T>`) for type-safe data schemas.
 
-### 🗂️ 02-TYPE-SCRIPT
-Transitioning from loosely typed structures to strict compilation safety rules.
-* **Type Modeling:** Interface definitions, Declaration Merging, Discriminated Unions, and rigid positional Tuple arrays.
-* **Enterprise Integration:** Implementing generic asynchronous data engines (`<T>`) powering type-safe React UI component patterns.
-* **Compilation Rule Sets:** Strict local configurations managed through targeted `tsconfig.json` boundaries.
+### 🧵 Reactive Data Pipelines & I/O Streams
+Optimizing low-level system modules and network protocols to guarantee resource-efficient execution under heavy load.
+* **Memory-Optimized Stream I/O:** Engineering chunks-based data ingestion pipelines using native Node.js `ReadableStreams` to process heavy binary datasets over HTTP without RAM exhaustion.
+* **Event-Driven Architectures:** Architecting decentralized, custom Pub/Sub messaging modules leveraging native `EventEmitter` implementations.
 
-### 🗂️ 03-NODE-COURSE
-Mastering low-level system modules and performance optimizations before using abstractions.
-* **Asynchronous Patterns:** Non-blocking async file streams using native `fs` and avoiding system process blocks.
-* **Event-Driven Patterns:** Custom Pub/Sub messaging networks built natively through the `EventEmitter` architecture.
-* **Streams Pipelines:** Handling heavy binary datasets chunk-by-chunk using `ReadableStreams` over network protocols to prevent RAM exhaustion.
-
-### 🗂️ 04-EXPRESS-COURSE
-Structuring maintainable, modular backend delivery networks.
-* **Middlewares:** Building sequential execution pipeline guards for input scrubbing, logging, and routing rules.
-* **MVC Pattern:** Moving from single-file routing maps into clean decoupled Models, Router Modules, and Controller files.
+### 🌐 Scalable API Architectures
+Implementing maintainable, decoupled networking layers designed for scale and clean separation of concerns.
+* **Modular Pipeline Architecture:** Designing sequential execution middleware chains to enforce global input sanitization, structural logging, and centralized error handling.
+* **Domain Decoupling (MVC):** Abstracting routing configurations away from application logic by partitioning applications into strict Controller layers, Data Models, and specialized Domain Services.
 
 ---
 
-## 🛠️ Current Development Focus
-I am currently setting up the **`05-Relational_Data_Layer`** workspace directory. The objective is to phase out transient in-memory database arrays and replace them with a permanent, relational, type-safe data infrastructure layer.
-
----
-*Note: This roadmap file is actively updated as each system architecture phase transitions into production-ready deployment status.*
+## 🛠️ Current Sprint Target
+I am currently implementing the **`05-Relational_Data_Layer`** workspace. The objective is to replace ephemeral storage structures with a production-grade PostgreSQL persistence layer, evaluating index strategies, connection pooling behaviors, and type-safe query execution via Prisma.
