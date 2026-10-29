@@ -24,6 +24,9 @@ export type SignUpInput = z.infer<typeof signUpSchema>["body"];
 export type LoginInput = z.infer<typeof loginSchema>["body"];
 
 /*
+ - Its a concept of Type Inference in TypeScript, which allows you to extract and reuse types from existing schemas or objects.
+ - TypeInference is a powerful feature of TypeScript that allows you to automatically infer the type of a variable or expression based on its value or structure, without explicitly specifying the type.
+ - z.infer<typeof signUpSchema>["body"] is a TypeScript type that represents the shape of the "body" property defined in the signUpSchema object. 
  - z.infer<typeof signUpSchema>["body"]
  Breaking it into two parts:
  1. z.infer<typeof signUpSchema>
