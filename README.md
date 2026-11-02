@@ -10,8 +10,8 @@ A centralized engineering laboratory focused on building high-performance, type-
 | :--- | :--- | :--- |
 | **01. Runtimes & Compilation** | V8 Event Loop optimization, asynchronous memory management, strict type compilation systems. | **🟢 Active Engine** |
 | **02. Reactive & Streaming Subsystems** | Multi-threaded stream pipelines, native non-blocking IO, custom event-driven Pub/Sub networks. | **🟢 Active Engine** |
-| **03. Relational Infrastructure** | PostgreSQL normalization, indexing, connection pooling, and Prisma type-safe database layers. | **⚡ In Progress** |
-| **04. Distributed Identity & Security**| Cryptographic verification, token rotation strategies, and stateless/stateful session guards. | **⏳ Backlog** |
+| **03. Relational Infrastructure** | PostgreSQL normalization, indexing, connection pooling, and Prisma type-safe database layers. | **⚡ 🟢 Active Engine** |
+| **04. Distributed Identity & Security**| Cryptographic verification, token rotation strategies, and stateless/stateful session guards. | **⏳ 🟢 Active Engine** |
 | **05. Enterprise Application Design** | Monolithic-to-modular refactoring, NestJS dependency injection, and clean architecture boundaries. | **⏳ Backlog** |
 | **06. Cloud & Systems Infrastructure**| Multi-stage Docker containerization, CI/CD automated orchestration, and AWS deployments. | **⏳ Backlog** |
 
